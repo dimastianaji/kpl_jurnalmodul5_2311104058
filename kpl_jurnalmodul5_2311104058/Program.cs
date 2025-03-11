@@ -1,5 +1,8 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
+=======
+>>>>>>> abb9f22496078b49a6b1ce0b7d3309b52c495a06
 
 public class Penjumlahan
 {
@@ -13,6 +16,7 @@ public class Penjumlahan
     }
 }
 
+<<<<<<< HEAD
 public class SimpleDataBase<T>
 {
     private List<T> storedData;
@@ -56,6 +60,8 @@ public class SimpleDataBase<T>
     }
 }
 
+=======
+>>>>>>> abb9f22496078b49a6b1ce0b7d3309b52c495a06
 public class Program
 {
     public static void Main()
@@ -71,6 +77,7 @@ public class Program
 
             Penjumlahan penjumlahan = new Penjumlahan();
             int hasil = penjumlahan.JumlahTigaAngka(angka1, angka2, angka3);
+<<<<<<< HEAD
             Console.WriteLine($"Hasil penjumlahan: {hasil}\n");
 
             SimpleDataBase<int> database = new SimpleDataBase<int>();
@@ -78,6 +85,9 @@ public class Program
             database.AddNewDataFromUser();
             database.AddNewDataFromUser();
             database.PrintAllData();
+=======
+            Console.WriteLine($"Hasil penjumlahan: {hasil}");
+>>>>>>> abb9f22496078b49a6b1ce0b7d3309b52c495a06
         }
         else
         {
@@ -85,4 +95,7 @@ public class Program
         }
     }
 }
+<<<<<<< HEAD
 //Dimastian Aji WIbowo
+=======
+>>>>>>> abb9f22496078b49a6b1ce0b7d3309b52c495a06
